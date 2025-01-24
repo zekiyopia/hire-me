@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: black;
+    background-image: url("./_MG_6260__3_-removebg.png");
+    background-repeat: no-repeat;
+    background-position: right -100px bottom -10px; /* Position the image to the bottom-right corner */
+    background-size: contain; /* Keep the original size of the image */
+    padding-top: 20px; 
+}
+.header {
+    position: inherit;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 11%;
+    background-color: transparent;
+    z-index: 10;
+}
+.header .logo {
+    font-size: 31px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header .navbar a {
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-left: 37px;
+    z-index: 10;
+}
+.header .navbar a:hover,
+.navbar a.active
+{
+    color: #00B59B;
+}
+
+.home {
+    color: white;
+    display: flex;
+    align-items: center;
+    min-height: 85vh;
+    padding: 0 11%;
+}
+.home .home-section {
+    max-width: 60%;
+   
+}
+.home-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.home-section h1 span {
+    color: #00B59B;
+}
+.home-section .btn-box {
+    margin-top: 30px;
+}
+.home-section .btn-box a {
+    padding: 11px 29px;
+    background-color: #00B59B;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    border: 3px solid #00B59B;
+    border-radius: 7px;
+}
+.btn-box a:nth-child(2) {
+    background-color: transparent;
+    margin-left: 11px;
+    color: #00B59B;
+    transition: all 0.5s ease;
+}
+.btn-box a:nth-child(2):hover {
+    background-color: #00B59B;
+    color: white;
+}
+.btn-box a:nth-child(1) {
+    background-color: #00B59B;
+    margin-left: 11px;
+    color: white;
+    transition: all 0.5s ease;
+}
+.btn-box a:nth-child(1):hover {
+    background-color: transparent;
+    color: #00B59B;
+}
+
