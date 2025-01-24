@@ -9,7 +9,7 @@
 }
 body {
     background: black;
-    background-image: url("./_MG_6260__3_-removebg.png");
+    background-image: url("./image/_MG_6260__3_-removebg.png");
     background-repeat: no-repeat;
     background-position: right -100px bottom -10px; /* Position the image to the bottom-right corner */
     background-size: contain; /* Keep the original size of the image */
